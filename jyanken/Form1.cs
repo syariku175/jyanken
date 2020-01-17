@@ -41,6 +41,7 @@ namespace jyanken
 
         }
 
+        //コンピューターの手を抽出
         private string Getcomphand()
         {
             Random rand = new Random();
@@ -88,6 +89,7 @@ namespace jyanken
 
         }
 
+        //判定メソッド
         private void Hantei(string myhand, string comphand)
         {
 
